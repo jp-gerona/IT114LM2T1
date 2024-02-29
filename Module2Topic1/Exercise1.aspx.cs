@@ -13,5 +13,10 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void playSong(object sender, EventArgs e)
+        {
+            SongStatus.InnerHtml = "Now playing: Happiness - The 1975";
+        }
     }
 }
